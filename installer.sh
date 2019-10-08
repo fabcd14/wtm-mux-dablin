@@ -16,7 +16,7 @@ sudo apt-get -y install libfdk-aac-dev libzmq3-dev libzmq5
 
 echo -e "$GREEN Creation of the dab directory $NORMAL"
 mkdir ~/dab
-chmod +c launch.sh
+chmod +x launch.sh
 cp launch.sh ~/dab
 
 echo -e "$GREEN Installing DabLin $NORMAL"
