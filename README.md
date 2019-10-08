@@ -4,7 +4,7 @@ DABlin installer to monitor and listen the WhatTheMux? trials
 What the script does ?
 ======================
 
-The `installer.sh` script downloads and installs of the following tools :
+The `installer.sh` script downloads and installs the following tools :
 - Dablin
 - zmq-sub via the folliwing repo : https://github.com/mpbraendli/mmbtools-aux
 - Tools necessary for Dablin such as :
