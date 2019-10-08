@@ -26,5 +26,10 @@ For Debian (and Ubuntu) use
 
 How to use
 ==========
+The `launch.sh` script will launch Dablin in GUI mode, with the WhatTheMux ZMQ/ETI input.
 
-    $ ./launch.sh
+To execute this script, just type : 
+
+    $ $HOME/dab/launch.sh
+
+where `$HOME` is your home directory
