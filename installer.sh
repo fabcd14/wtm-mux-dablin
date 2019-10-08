@@ -3,7 +3,7 @@ echo
 echo "DABlin installer to monitor the WhatTheMux? Mux"
 echo "==============================================="
 echo
-echo "It will install ODR-DabMux, ODR-DabMod, ODR-AudioEnc, ODR-PadEnc"
+echo "It will install zmq-sub, dablin"
 echo "and all prerequisites to your machine."
 
 echo -e "$GREEN Updating debian package repositories $NORMAL"
