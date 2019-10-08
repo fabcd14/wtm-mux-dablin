@@ -6,6 +6,7 @@ Installation
 
 For Debian (and Ubuntu) use
 
+    $ sudo apt install git
     $ git clone https://github.com/fabcd14/wtm-mux-dablin
     $ chmod +x installer.sh
     
