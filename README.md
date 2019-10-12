@@ -20,8 +20,16 @@ For Debian (and Ubuntu) use
 
     $ sudo apt install git
     $ git clone https://github.com/fabcd14/wtm-mux-dablin
-    $ chmod +x installer.sh (or installer-mint.sh for Linux Mint 17.x)
+    $ chmod +x installer.sh
     $ ./installer.sh
+
+
+For Linux Mint 17.x use
+
+    $ sudo apt install git
+    $ git clone https://github.com/fabcd14/wtm-mux-dablin
+    $ chmod +x installer-mint.sh
+    $ ./installer-mint.sh
     
 
 How to use
