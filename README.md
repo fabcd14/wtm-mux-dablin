@@ -25,7 +25,7 @@ For Debian (and Ubuntu) use
     $ ./installer.sh
 
 
-For Linux Mint 17.x use
+For Linux Mint 17.x & 18.x use
 
     $ sudo apt install git
     $ git clone https://github.com/fabcd14/wtm-mux-dablin
