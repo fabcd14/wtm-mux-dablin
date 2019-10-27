@@ -5,7 +5,7 @@ echo "==============================================="
 echo
 echo "It will install zmq-sub, dablin"
 echo "and all prerequisites to your machine."
-echo -e "$GREEN For Linux Mint 17.x $NORMAL"
+echo -e "$GREEN For Linux Mint 17.x & 18.x $NORMAL"
 
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo sh -c "echo 'deb http://download.opensuse.org/repositories/network:/messaging:/zeromq:/release-stable/xUbuntu_14.04/ /' > /etc/apt/sources.list.d/network:messaging:zeromq:release-stable.list"
@@ -13,11 +13,13 @@ wget -nv https://download.opensuse.org/repositories/network:messaging:zeromq:rel
 sudo apt-key add - < Release.key
 sudo apt update
 
-echo -e "$GREEN Installing essential prerquisites $NORMAL"
+echo -e "$GREEN Installing essential prerequisites $NORMAL"
 sudo apt-get -y install g++-4.9 cmake3 git
+sudo apt-get -y install cmake
 sudo ln -s /usr/bin/g++-4.9 /usr/bin/g++
 sudo apt-get -y install libmpg123-dev libfaad-dev libsdl2-dev libgtkmm-3.0-dev
 sudo apt-get -y install libfdk-aac-dev libzmq3-dev libzmq5
+sudo apt-get -y install build-essential 
 
 echo -e "$GREEN Creation of the dab directory $NORMAL"
 mkdir ~/dab
